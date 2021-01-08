@@ -1,0 +1,66 @@
+.row{
+
+display:flex;
+height: 100%;
+
+}
+
+
+
+.center{
+
+display:flex;
+
+background-color: white;
+
+
+width: 30%;
+height: 60%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+.column-left:hover{
+
+
+    z-index:3;
+    transition: ease-in-out;
+    transition-duration: 2s;
+
+}
+
+
+.column-right:hover{
+
+
+    z-index:3;
+    transition: ease-in-out;
+    transition-duration: 2s;
+
+}
+
+.column-right{
+
+    width: 50%;
+    height: auto;
+    background-image: url(/home/coloma/portfolio/src/imgs/right-column.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.column-left{
+
+    width: 50%;
+    height: auto;
+    background-image: url(/home/coloma/portfolio/src/imgs/left-column.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
